@@ -1,0 +1,61 @@
+:root{
+    --yellow-light: #F8E021;
+    --white: #FFFFFF;
+    --yellow-dark: #A79612;
+    --darkgrey: #323838;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body{
+    background-color: var(--darkgrey);
+    height: 100vh;
+}
+
+main {
+    max-width: 37.5rem;
+    padding: 3.2rem;
+    margin: 7.5rem auto;
+}
+
+main img {
+    width: 7.5rem;
+    box-shadow: 2px 8px 15px #1E1F1F;
+    border-radius: 100%;
+    margin-bottom: 4.5rem;
+}
+
+.carregamento {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+span{
+    color: var(--white);
+    font-size: 1.5rem;
+}
+
+.barra-de-carregamento {
+    width: 80%;
+    height: 11px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1.0em;
+}
+
+.progress{
+    width: 0;
+    height: 100%;
+    background-color: var(--yellow-light);
+    border-radius: 1.0rem;
+    transition: animation 4s ease-in-out forwards; /* Adicione uma transição suave */
+}
+
