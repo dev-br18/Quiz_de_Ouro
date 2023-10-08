@@ -22,7 +22,7 @@ main {
     max-width: 37.5rem;
     height: 100vh;
     background-repeat: no-repeat;
-    background-size: 38.5rem;
+    background-size: auto;
     background-image: url(assets/7290759.jpg);
     background-position: center;
 }
